@@ -1,4 +1,4 @@
-from manufacturing_company.src.common.Const import *
+from manufacturing_company.src.common.const import *
 import pandas as pd
 
 
