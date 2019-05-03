@@ -4,20 +4,20 @@ import pandas as pd
 
 
 def remove_former_employee_and_technical_accounts(communication, reportsto):
-    reportsto_processed = reportsto[reportsto[REPORTS_TO_ID].str.isnumeric()]
-    reportsto_processed[REPORTS_TO_ID] = pd.to_numeric(reportsto_processed[REPORTS_TO_ID])
+    reportsto = reportsto[reportsto[REPORTS_TO_ID].str.isnumeric()].copy()
+    reportsto[REPORTS_TO_ID] = pd.to_numeric(reportsto[REPORTS_TO_ID])
 
-    communication_processed = __intersect(reportsto_processed, communication, ID, SENDER, REPORTS_TO_ID, RECIPIENT)
+    communication = __intersect(reportsto, communication, ID, SENDER, REPORTS_TO_ID, RECIPIENT)
 
-    return communication_processed, reportsto_processed
+    return communication, reportsto
 
 
 def remove_messges_sent_to_yourself(communication, reportsto):
-    communication_processed = communication[communication[SENDER] != communication[RECIPIENT]]
+    communication = communication[communication[SENDER] != communication[RECIPIENT]]
 
-    reportsto_processed = __intersect(communication_processed, reportsto, SENDER, ID, RECIPIENT, REPORTS_TO_ID)
+    reportsto = __intersect(communication, reportsto, SENDER, ID, RECIPIENT, REPORTS_TO_ID)
 
-    return communication_processed, reportsto_processed
+    return communication, reportsto
 
 
 def __intersect(employees1, employees2, sender_label_1, sender_label_2, recipient_label_1, recipient_label_2):
