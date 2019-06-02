@@ -4,18 +4,18 @@ import pandas as pd
 from sklearn.metrics import jaccard_score
 
 
-def neighbors_per_month_sender(df, G):
+def neighbors_per_month_sender(df, all_employees):
     df_tmp = df.groupby([SENDER, df[EVENT_DATE].dt.month])[RECIPIENT].unique()
     df_tmp = pd.DataFrame(df_tmp)
     df_tmp.index.names = [ID, EVENT_DATE]
-    return fill_missing_neighbors(df_tmp, G)
+    return fill_missing_neighbors(df_tmp, all_employees)
 
 
-def neighbors_per_month_recipient(df, G):
+def neighbors_per_month_recipient(df, all_employees):
     df_tmp = df.groupby([RECIPIENT, df[EVENT_DATE].dt.month])[SENDER].unique()
     df_tmp = pd.DataFrame(df_tmp)
     df_tmp.index.names = [ID, EVENT_DATE]
-    return fill_missing_neighbors(df_tmp, G)
+    return fill_missing_neighbors(df_tmp, all_employees)
 
 
 def neighbors_per_month_sender_and_recipient(df_sender, df_recipient):
@@ -36,15 +36,14 @@ def merge_contacted_ids(row):
     return msg_x | msg_y
 
 
-def fill_missing_neighbors(df, G):
-    all_employees = pd.Series(G.nodes)
+def fill_missing_neighbors(df, all_employees):
     df.iloc[:, 0] = df.apply(lambda row: all_employees.isin(row[0]).tolist(), axis=1)
     return df
 
 
-def calculate_neighborhood_variability(df, G):
-    df_sender = neighbors_per_month_sender(df, G)
-    df_recipient = neighbors_per_month_recipient(df, G)
+def calculate_neighborhood_variability(df, all_employees):
+    df_sender = neighbors_per_month_sender(df, all_employees)
+    df_recipient = neighbors_per_month_recipient(df, all_employees)
     df_sender_recipient = neighbors_per_month_sender_and_recipient(df_sender, df_recipient)
 
     neighborhood_variability_sender = calculate_jaccard(df_sender)
