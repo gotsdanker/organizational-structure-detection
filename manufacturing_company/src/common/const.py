@@ -28,3 +28,5 @@ WORK_AT_WEEKEND = 'work_at_weekend'
 NEIGHBORHOOD_VARIABILITY_SENDER = 'neighborhood_variability_sender'
 NEIGHBORHOOD_VARIABILITY_RECIPIENT = 'neighborhood_variability_recipient'
 NEIGHBORHOOD_VARIABILITY_ALL = 'neighborhood_variability_all'
+
+POSITION = 'ManagementLevel'

@@ -1,0 +1,39 @@
+DecisionTreeClassifier
+
+f1_macro0.4683
+
+features: [
+	in_degree
+	out_degree
+	betweenness
+	closeness
+	clustering_coeff
+	pagerank
+	hubs
+	max_clique
+	cliques_count
+	overtime
+	work_at_weekend
+	neighborhood_variability_sender
+	neighborhood_variability_recipient
+	neighborhood_variability_all
+]
+
+params: {'model__max_depth': 3, 'model__max_features': 3}
+
+mean_fit_time                  0.0249 
+std_fit_time                   0.0226 
+mean_score_time                0.0022 
+std_score_time                 0.0004 
+param_model__max_depth         3.0000 
+param_model__max_features      3.0000 
+split0_test_score              0.4153 
+split1_test_score              0.4902 
+split2_test_score              0.3633 
+split3_test_score              0.4146 
+split4_test_score              0.6651 
+mean_test_score                0.4683 
+std_test_score                 0.1043 
+rank_test_score                1.0000 
+##################################################################
+
