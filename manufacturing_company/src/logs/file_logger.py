@@ -13,7 +13,7 @@ def save(modelInfoMap, algorithm, levels):
         with open(directoryPath + '/' + str(month) + '_months', 'a') as file:
             for modelInfo in modelInfoList:
                 file.write(algorithm.__name__ + '\n\n')
-                file.write(modelInfo.cv_scorer + '{0:.4f}'.format(modelInfo.model.best_score_) + '\n\n')
+                file.write(modelInfo.cv_scorer + ': {0:.4f}'.format(modelInfo.model.best_score_) + '\n\n')
 
                 file.write('features: [\n')
                 for feature in modelInfo.features:
@@ -28,4 +28,4 @@ def save(modelInfoMap, algorithm, levels):
                     except:
                         pass
 
-            file.write('##################################################################\n\n')
+                file.write('##################################################################\n\n')

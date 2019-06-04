@@ -3,7 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="82a51d1b-7598-45ff-96b5-6ee3621b5fd4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manufacturing_company/src/common/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/src/common/const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/1_months_communication.csv" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/1_months_communication.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/2_months_communication.csv" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/2_months_communication.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/3_months_communication.csv" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/3_months_communication.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/4_months_communication.csv" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/4_months_communication.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/5_months_communication.csv" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/5_months_communication.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/data/intermediate/04_networks/1_months_network.csv" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/data/intermediate/04_networks/1_months_network.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/data/intermediate/04_networks/2_months_network.csv" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/data/intermediate/04_networks/2_months_network.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/data/intermediate/04_networks/3_months_network.csv" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/data/intermediate/04_networks/3_months_network.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/data/intermediate/04_networks/4_months_network.csv" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/data/intermediate/04_networks/4_months_network.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/data/intermediate/04_networks/5_months_network.csv" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/data/intermediate/04_networks/5_months_network.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/data/intermediate/05_features/1_months_features.csv" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/data/intermediate/05_features/1_months_features.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/data/intermediate/05_features/2_months_features.csv" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/data/intermediate/05_features/2_months_features.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/data/intermediate/05_features/3_months_features.csv" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/data/intermediate/05_features/3_months_features.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/data/intermediate/05_features/4_months_features.csv" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/data/intermediate/05_features/4_months_features.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/data/intermediate/05_features/5_months_features.csv" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/data/intermediate/05_features/5_months_features.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/logs/2019-06-03_09:53:28_DecisionTreeClassifier_2levels/1_months" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/logs/2019-06-03_09:53:28_DecisionTreeClassifier_2levels/2_months" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/logs/2019-06-03_09:53:28_DecisionTreeClassifier_2levels/3_months" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/logs/2019-06-03_09:53:28_DecisionTreeClassifier_2levels/4_months" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/logs/2019-06-03_09:53:28_DecisionTreeClassifier_2levels/5_months" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/notebooks/create_features.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/notebooks/create_features.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/notebooks/data_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/notebooks/data_analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/notebooks/network.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/notebooks/network.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/notebooks/preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/notebooks/preprocessing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/notebooks/standard_classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/notebooks/standard_classification.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/standard_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/standard_classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/src/features/employee_activity.py" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/src/features/employee_activity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/src/logs/file_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/src/logs/file_logger.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,35 +58,39 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="1_months" value="1" />
-          <entry key="csv" value="59" />
+          <entry key="1_months" value="3" />
+          <entry key="2_months" value="1" />
+          <entry key="3_months" value="1" />
+          <entry key="4_months" value="1" />
+          <entry key="5_months" value="3" />
+          <entry key="csv" value="72" />
           <entry key="gitignore" value="1" />
-          <entry key="ipynb" value="20" />
+          <entry key="ipynb" value="29" />
           <entry key="neighborhood_variability" value="1" />
-          <entry key="py" value="37" />
+          <entry key="py" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="59" />
-          <entry key="IPNB" value="20" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="38" />
+          <entry key="CSV" value="72" />
+          <entry key="IPNB" value="29" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="csv" value="256" />
+          <entry key="csv" value="541" />
           <entry key="dummy" value="10" />
           <entry key="neighborhood_variability" value="174" />
-          <entry key="py" value="14950" />
+          <entry key="py" value="16320" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSV" value="256" />
+          <entry key="CSV" value="541" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="15124" />
+          <entry key="Python" value="16494" />
         </counts>
       </usages-collector>
     </session>
@@ -67,16 +98,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/create_features.ipynb">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/preprocessing.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="0" />
+              <selected id="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/standard_classification.ipynb">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/network.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="2" />
@@ -85,50 +116,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/ModelInfo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-              <folding>
-                <marker date="1559547480174" expanded="true" signature="16:21" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manufacturing_company/src/logs/file_logger.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1559547850886" expanded="true" signature="207:208" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manufacturing_company/src/network/social_network.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-                <marker date="1558026146524" expanded="true" signature="206:207" ph="..." />
-                <marker date="1558026146524" expanded="true" signature="690:695" ph="..." />
-                <marker date="1558026146524" expanded="true" signature="842:2236" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manufacturing_company/src/features/neighborhood_variability.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="45" column="66" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+            <state relative-caret-position="454">
+              <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
                 <marker date="1559505943829" expanded="true" signature="186:191" ph="..." />
@@ -141,31 +132,66 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/create_features.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/data/raw/communication2.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/1_months_communication2.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/standard_classification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="77" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+            <state relative-caret-position="-258">
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/src/logs/file_logger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
               <folding>
-                <element signature="e#0#52#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1559631182283" expanded="true" signature="207:208" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/imblearn/over_sampling/smote.py">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/2019-06-04_08:49:26_DecisionTreeClassifier_2levels/1_months">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="154" column="8" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
-            </state>
+            <state relative-caret-position="-3010" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="1133" column="8" selection-start-line="1133" selection-start-column="8" selection-end-line="1133" selection-end-column="8" />
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/standard_classification.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="2" />
             </state>
           </provider>
         </entry>
@@ -185,6 +211,12 @@
       <find>;86</find>
       <find>communication_datasets</find>
       <find>communication</find>
+      <find>f1_macro</find>
+      <find>^82;</find>
+      <find>^5;</find>
+      <find>^16;</find>
+      <find>^1;</find>
+      <find>^2;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -196,26 +228,30 @@
         <option value="$PROJECT_DIR$/manufacturing-company/src/data/import_data.py" />
         <option value="$PROJECT_DIR$/manufacturing-company/notebooks/data_analysis.ipynb" />
         <option value="$PROJECT_DIR$/manufacturing_company/src/common/Const.py" />
-        <option value="$PROJECT_DIR$/manufacturing_company/src/data/import_data.py" />
         <option value="$PROJECT_DIR$/manufacturing_company/data/intermediate/01_after_data_cleaning/communication.csv" />
         <option value="$PROJECT_DIR$/manufacturing_company/tmp.csv" />
         <option value="$PROJECT_DIR$/manufacturing_company/src/features/data_cleaning.py" />
         <option value="$PROJECT_DIR$/manufacturing_company/src/network/create_network.py" />
         <option value="$PROJECT_DIR$/manufacturing_company/src/network/social_network.py" />
-        <option value="$PROJECT_DIR$/manufacturing_company/notebooks/preprocessing.ipynb" />
-        <option value="$PROJECT_DIR$/manufacturing_company/notebooks/data_analysis.ipynb" />
         <option value="$PROJECT_DIR$/manufacturing_company/src/features/neighborhood_variability" />
-        <option value="$PROJECT_DIR$/manufacturing_company/src/features/employee_activity.py" />
         <option value="$PROJECT_DIR$/manufacturing_company/src/features/neighborhood_variability.py" />
-        <option value="$PROJECT_DIR$/manufacturing_company/notebooks/network.ipynb" />
-        <option value="$PROJECT_DIR$/manufacturing_company/notebooks/create_features.ipynb" />
         <option value="$PROJECT_DIR$/manufacturing_company/src/models/standard_classification.py" />
         <option value="$PROJECT_DIR$/manufacturing_company/data/raw/positions.csv" />
         <option value="$PROJECT_DIR$/manufacturing_company/src/common/const.py" />
         <option value="$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/ModelInfo.py" />
-        <option value="$PROJECT_DIR$/manufacturing_company/src/logs/file_logger.py" />
+        <option value="$PROJECT_DIR$/manufacturing_company/data/raw/reportsto2.csv" />
+        <option value="$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/1_months_communication.csv" />
+        <option value="$PROJECT_DIR$/manufacturing_company/src/data/import_data.py" />
+        <option value="$PROJECT_DIR$/manufacturing_company/src/features/employee_activity.py" />
+        <option value="$PROJECT_DIR$/manufacturing_company/notebooks/data_analysis.ipynb" />
+        <option value="$PROJECT_DIR$/manufacturing_company/data/raw/communication2.csv" />
+        <option value="$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/1_months_communication2.csv" />
+        <option value="$PROJECT_DIR$/manufacturing_company/notebooks/create_features.ipynb" />
         <option value="$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/standard_classification.py" />
+        <option value="$PROJECT_DIR$/manufacturing_company/notebooks/preprocessing.ipynb" />
+        <option value="$PROJECT_DIR$/manufacturing_company/notebooks/network.ipynb" />
         <option value="$PROJECT_DIR$/manufacturing_company/notebooks/standard_classification.ipynb" />
+        <option value="$PROJECT_DIR$/manufacturing_company/src/logs/file_logger.py" />
       </list>
     </option>
   </component>
@@ -243,6 +279,63 @@
               <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
               <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
               <item name="manufacturing_company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
+              <item name="manufacturing_company" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
+              <item name="manufacturing_company" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
+              <item name="manufacturing_company" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediate" type="462c0819:PsiDirectoryNode" />
+              <item name="01_after_data_cleaning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
+              <item name="manufacturing_company" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediate" type="462c0819:PsiDirectoryNode" />
+              <item name="02_drop_duplicates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
+              <item name="manufacturing_company" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediate" type="462c0819:PsiDirectoryNode" />
+              <item name="03_minimum_activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
+              <item name="manufacturing_company" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="raw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
+              <item name="manufacturing_company" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
+              <item name="manufacturing_company" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-06-04_08:49:26_DecisionTreeClassifier_2levels" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
@@ -309,11 +402,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/raw" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/manufacturing-company" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity" />
+      <recent name="$PROJECT_DIR$/manufacturing_company/data/raw" />
+      <recent name="$PROJECT_DIR$/data/raw" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -373,20 +468,20 @@
     <frame x="0" y="23" width="1280" height="713" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25655282" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25655282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30112723" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30112723" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32953367" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32953367" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32850242" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32953367" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32850242" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -396,73 +491,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/tmp.csv" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29685">
-          <caret line="2036" column="25" selection-start-line="2036" selection-start-column="25" selection-end-line="2036" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/01_after_data_cleaning/reportsto.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2055">
-          <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/raw/reportsto.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/02_minimum_activity/2_months_communication.csv" />
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/02_minimum_activity/3_months_communication.csv" />
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/02_minimum_activity/4_months_communication.csv" />
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/02_minimum_activity/5_months_communication.csv" />
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/02_minimum_activity/1_months_communication.csv" />
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/2_months_communication.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/01_after_data_cleaning/communication.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/02_drop_duplicates/communication.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/data/import_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="84" selection-start-line="5" selection-start-column="84" selection-end-line="5" selection-end-column="108" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-            <marker date="1555454477880" expanded="true" signature="100:105" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/pandas/core/series.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="4375" column="37" selection-start-line="4375" selection-start-column="37" selection-end-line="4375" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/pandas/core/indexes/accessors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4140">
-          <caret line="289" column="6" selection-start-line="289" selection-start-column="6" selection-end-line="289" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/04_networks/2_months_network.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/04_networks/3_months_network.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -475,13 +503,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/04_networks/4_months_network.csv">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/raw/communication.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="17" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/networkx/convert_matrix.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -511,18 +532,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/1_months_communication.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="652" selection-start-line="652" selection-end-line="652" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/5_months_communication.csv">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/05_features/2_months_features.csv">
       <provider selected="true" editor-type-id="text-editor" />
@@ -553,84 +568,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/data_analysis.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/05_features/1_months_features.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="246" selection-start-column="218" selection-end-column="246" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/features/data_cleaning.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/preprocessing.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/features/employee_activity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-            <marker date="1559498849693" expanded="true" signature="730:1104" ph="..." />
-            <marker date="1559498849693" expanded="true" signature="1138:1139" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/network.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/network/social_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-            <marker date="1558026146524" expanded="true" signature="206:207" ph="..." />
-            <marker date="1558026146524" expanded="true" signature="690:695" ph="..." />
-            <marker date="1558026146524" expanded="true" signature="842:2236" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/features/neighborhood_variability.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="45" column="66" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-            <marker date="1559505943829" expanded="true" signature="186:191" ph="..." />
-            <marker date="1559505943829" expanded="true" signature="454:455" ph="..." />
-            <marker date="1559505943829" expanded="true" signature="739:1285" ph="..." />
-            <marker date="1559505943829" expanded="true" signature="2386:2808" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/create_features.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
         </state>
       </provider>
     </entry>
@@ -658,27 +599,203 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/logs/file_logger.py">
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/2019-06-03_09:42:57_DecisionTreeClassifier_2levels/1_months">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/2019-06-03_10:01:27_DecisionTreeClassifier_2levels/5_months">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/2019-06-03_10:05:43_DecisionTreeClassifier_2levels/5_months">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/imblearn/pipeline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="390">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1559547850886" expanded="true" signature="207:208" ph="..." />
+            <element signature="e#404#435#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/2019-06-03_09:42:57_DecisionTreeClassifier_2levels/1_months">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/standard_classification.py">
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/2019-06-03_21:21:38_DecisionTreeClassifier_2levels/5_months">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="77" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+        <state relative-caret-position="-2814">
+          <caret line="2" column="8" selection-start-line="2" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/2019-06-03_21:21:38_DecisionTreeClassifier_2levels/4_months">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2814">
+          <caret line="2" column="8" selection-start-line="2" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/2019-06-03_21:21:38_DecisionTreeClassifier_2levels/3_months">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2814">
+          <caret line="2" column="8" selection-start-line="2" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/2019-06-03_21:21:38_DecisionTreeClassifier_2levels/2_months">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1434">
+          <caret line="94" column="8" selection-start-line="94" selection-end-line="94" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/2019-06-03_21:21:38_DecisionTreeClassifier_2levels/1_months">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/5_months_communication.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1231586" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/data/import_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
+            <marker date="1559596239967" expanded="true" signature="100:105" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/raw/reportsto.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" column="17" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/raw/communication.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="39090" column="2" selection-start-line="39090" selection-start-column="2" selection-end-line="39090" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/01_after_data_cleaning/communication.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/02_drop_duplicates/communication.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/1_months_communication.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/01_after_data_cleaning/reportsto.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/features/data_cleaning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/network/social_network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+            <marker date="1558026146524" expanded="true" signature="206:207" ph="..." />
+            <marker date="1558026146524" expanded="true" signature="690:695" ph="..." />
+            <marker date="1558026146524" expanded="true" signature="842:2236" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/raw/reportsto2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/features/employee_activity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+            <marker date="1559626983257" expanded="true" signature="1160:1644" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/data_analysis.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/raw/communication2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/03_minimum_activity/1_months_communication2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/features/neighborhood_variability.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+            <marker date="1559505943829" expanded="true" signature="186:191" ph="..." />
+            <marker date="1559505943829" expanded="true" signature="454:455" ph="..." />
+            <marker date="1559505943829" expanded="true" signature="739:1285" ph="..." />
+            <marker date="1559505943829" expanded="true" signature="2386:2808" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/preprocessing.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/network.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/create_features.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
         </state>
       </provider>
     </entry>
@@ -686,6 +803,29 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/standard_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-258">
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/2019-06-04_08:49:26_DecisionTreeClassifier_2levels/1_months">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3010" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/logs/file_logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1559631182283" expanded="true" signature="207:208" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

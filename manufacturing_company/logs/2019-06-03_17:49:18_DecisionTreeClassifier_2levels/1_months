@@ -1,0 +1,222 @@
+DecisionTreeClassifier
+
+f1_macro0.5503
+
+features: [
+]
+
+params: {'model__max_depth': 3}
+
+mean_fit_time                  0.0091 
+std_fit_time                   0.0073 
+mean_score_time                0.0030 
+std_score_time                 0.0017 
+param_model__max_depth         3.0000 
+split0_test_score              0.5784 
+split1_test_score              0.6286 
+split2_test_score              0.4755 
+split3_test_score              0.4444 
+split4_test_score              0.6190 
+mean_test_score                0.5503 
+std_test_score                 0.0749 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.5337
+
+features: [
+]
+
+params: {'model__max_depth': 3}
+
+mean_fit_time                  0.0050 
+std_fit_time                   0.0008 
+mean_score_time                0.0019 
+std_score_time                 0.0001 
+param_model__max_depth         3.0000 
+split0_test_score              0.5784 
+split1_test_score              0.6286 
+split2_test_score              0.3924 
+split3_test_score              0.4444 
+split4_test_score              0.6190 
+mean_test_score                0.5337 
+std_test_score                 0.0960 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.5449
+
+features: [
+]
+
+params: {'model__max_depth': 3}
+
+mean_fit_time                  0.0047 
+std_fit_time                   0.0005 
+mean_score_time                0.0019 
+std_score_time                 0.0001 
+param_model__max_depth         3.0000 
+split0_test_score              0.5784 
+split1_test_score              0.6286 
+split2_test_score              0.4485 
+split3_test_score              0.4444 
+split4_test_score              0.6190 
+mean_test_score                0.5449 
+std_test_score                 0.0809 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.5069
+
+features: [
+]
+
+params: {'model__max_depth': 3}
+
+mean_fit_time                  0.0056 
+std_fit_time                   0.0026 
+mean_score_time                0.0021 
+std_score_time                 0.0005 
+param_model__max_depth         3.0000 
+split0_test_score              0.4847 
+split1_test_score              0.4091 
+split2_test_score              0.4048 
+split3_test_score              0.7000 
+split4_test_score              0.5500 
+mean_test_score                0.5069 
+std_test_score                 0.1081 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.4629
+
+features: [
+]
+
+params: {'model__max_depth': 3}
+
+mean_fit_time                  0.0073 
+std_fit_time                   0.0031 
+mean_score_time                0.0030 
+std_score_time                 0.0006 
+param_model__max_depth         3.0000 
+split0_test_score              0.4319 
+split1_test_score              0.4583 
+split2_test_score              0.3810 
+split3_test_score              0.6211 
+split4_test_score              0.4286 
+mean_test_score                0.4629 
+std_test_score                 0.0811 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.4909
+
+features: [
+]
+
+params: {'model__max_depth': 3}
+
+mean_fit_time                  0.0062 
+std_fit_time                   0.0017 
+mean_score_time                0.0025 
+std_score_time                 0.0002 
+param_model__max_depth         3.0000 
+split0_test_score              0.6389 
+split1_test_score              0.5965 
+split2_test_score              0.2400 
+split3_test_score              0.4991 
+split4_test_score              0.4693 
+mean_test_score                0.4909 
+std_test_score                 0.1399 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.4240
+
+features: [
+]
+
+params: {'model__max_depth': 3}
+
+mean_fit_time                  0.0052 
+std_fit_time                   0.0010 
+mean_score_time                0.0020 
+std_score_time                 0.0001 
+param_model__max_depth         3.0000 
+split0_test_score              0.5125 
+split1_test_score              0.4583 
+split2_test_score              0.3021 
+split3_test_score              0.4000 
+split4_test_score              0.4419 
+mean_test_score                0.4240 
+std_test_score                 0.0708 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.4438
+
+features: [
+]
+
+params: {'model__max_depth': 3}
+
+mean_fit_time                  0.0082 
+std_fit_time                   0.0021 
+mean_score_time                0.0046 
+std_score_time                 0.0017 
+param_model__max_depth         3.0000 
+split0_test_score              0.5125 
+split1_test_score              0.5385 
+split2_test_score              0.3056 
+split3_test_score              0.4000 
+split4_test_score              0.4545 
+mean_test_score                0.4438 
+std_test_score                 0.0840 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.4590
+
+features: [
+]
+
+params: {'model__max_depth': 3}
+
+mean_fit_time                  0.0073 
+std_fit_time                   0.0029 
+mean_score_time                0.0034 
+std_score_time                 0.0016 
+param_model__max_depth         3.0000 
+split0_test_score              0.4902 
+split1_test_score              0.4847 
+split2_test_score              0.4283 
+split3_test_score              0.4338 
+split4_test_score              0.4545 
+mean_test_score                0.4590 
+std_test_score                 0.0256 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.4995
+
+features: [
+]
+
+params: {'model__max_depth': 3}
+
+mean_fit_time                  0.0083 
+std_fit_time                   0.0017 
+mean_score_time                0.0033 
+std_score_time                 0.0007 
+param_model__max_depth         3.0000 
+split0_test_score              0.4319 
+split1_test_score              0.4583 
+split2_test_score              0.4048 
+split3_test_score              0.5966 
+split4_test_score              0.6190 
+mean_test_score                0.4995 
+std_test_score                 0.0875 
+rank_test_score                1.0000 
+##################################################################
+

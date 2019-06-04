@@ -1,0 +1,232 @@
+DecisionTreeClassifier
+
+f1_macro0.6421
+
+features: [
+]
+
+params: {'model__max_depth': 9, 'model__max_features': 10}
+
+mean_fit_time                  0.0078 
+std_fit_time                   0.0005 
+mean_score_time                0.0032 
+std_score_time                 0.0004 
+param_model__max_depth         9.0000 
+param_model__max_features      10.0000 
+split0_test_score              0.5873 
+split1_test_score              0.5614 
+split2_test_score              0.7474 
+split3_test_score              0.5872 
+split4_test_score              0.7273 
+mean_test_score                0.6421 
+std_test_score                 0.0786 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.6386
+
+features: [
+]
+
+params: {'model__max_depth': 5, 'model__max_features': 6}
+
+mean_fit_time                  0.0064 
+std_fit_time                   0.0012 
+mean_score_time                0.0031 
+std_score_time                 0.0004 
+param_model__max_depth         5.0000 
+param_model__max_features      6.0000 
+split0_test_score              0.7118 
+split1_test_score              0.4565 
+split2_test_score              0.5500 
+split3_test_score              0.7474 
+split4_test_score              0.7273 
+mean_test_score                0.6386 
+std_test_score                 0.1149 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.6572
+
+features: [
+]
+
+params: {'model__max_depth': 5, 'model__max_features': 12}
+
+mean_fit_time                  0.0087 
+std_fit_time                   0.0056 
+mean_score_time                0.0030 
+std_score_time                 0.0003 
+param_model__max_depth         5.0000 
+param_model__max_features      12.0000 
+split0_test_score              0.6286 
+split1_test_score              0.6212 
+split2_test_score              0.5819 
+split3_test_score              0.7052 
+split4_test_score              0.7491 
+mean_test_score                0.6572 
+std_test_score                 0.0609 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.6575
+
+features: [
+]
+
+params: {'model__max_depth': 3, 'model__max_features': 7}
+
+mean_fit_time                  0.0057 
+std_fit_time                   0.0006 
+mean_score_time                0.0025 
+std_score_time                 0.0004 
+param_model__max_depth         3.0000 
+param_model__max_features      7.0000 
+split0_test_score              0.7984 
+split1_test_score              0.5000 
+split2_test_score              0.7491 
+split3_test_score              0.6211 
+split4_test_score              0.6190 
+mean_test_score                0.6575 
+std_test_score                 0.1057 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.6883
+
+features: [
+]
+
+params: {'model__max_depth': 2, 'model__max_features': 9}
+
+mean_fit_time                  0.0056 
+std_fit_time                   0.0001 
+mean_score_time                0.0025 
+std_score_time                 0.0003 
+param_model__max_depth         2.0000 
+param_model__max_features      9.0000 
+split0_test_score              0.8523 
+split1_test_score              0.5847 
+split2_test_score              0.7000 
+split3_test_score              0.5556 
+split4_test_score              0.7491 
+mean_test_score                0.6883 
+std_test_score                 0.1087 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.6758
+
+features: [
+]
+
+params: {'model__max_depth': 3, 'model__max_features': 7}
+
+mean_fit_time                  0.0062 
+std_fit_time                   0.0010 
+mean_score_time                0.0027 
+std_score_time                 0.0002 
+param_model__max_depth         3.0000 
+param_model__max_features      7.0000 
+split0_test_score              0.7984 
+split1_test_score              0.5257 
+split2_test_score              0.8095 
+split3_test_score              0.5872 
+split4_test_score              0.6581 
+mean_test_score                0.6758 
+std_test_score                 0.1128 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.5749
+
+features: [
+]
+
+params: {'model__max_depth': 10, 'model__max_features': 3}
+
+mean_fit_time                  0.0043 
+std_fit_time                   0.0004 
+mean_score_time                0.0019 
+std_score_time                 0.0001 
+param_model__max_depth         10.0000 
+param_model__max_features      3.0000 
+split0_test_score              0.5385 
+split1_test_score              0.5000 
+split2_test_score              0.5214 
+split3_test_score              0.5872 
+split4_test_score              0.7273 
+mean_test_score                0.5749 
+std_test_score                 0.0815 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.5360
+
+features: [
+]
+
+params: {'model__max_depth': 6, 'model__max_features': 1}
+
+mean_fit_time                  0.0057 
+std_fit_time                   0.0024 
+mean_score_time                0.0051 
+std_score_time                 0.0053 
+param_model__max_depth         6.0000 
+param_model__max_features      1.0000 
+split0_test_score              0.3445 
+split1_test_score              0.4755 
+split2_test_score              0.4947 
+split3_test_score              0.5556 
+split4_test_score              0.8095 
+mean_test_score                0.5360 
+std_test_score                 0.1531 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.5869
+
+features: [
+]
+
+params: {'model__max_depth': 10, 'model__max_features': 1}
+
+mean_fit_time                  0.0042 
+std_fit_time                   0.0004 
+mean_score_time                0.0021 
+std_score_time                 0.0004 
+param_model__max_depth         10.0000 
+param_model__max_features      1.0000 
+split0_test_score              0.5667 
+split1_test_score              0.6362 
+split2_test_score              0.5253 
+split3_test_score              0.5872 
+split4_test_score              0.6190 
+mean_test_score                0.5869 
+std_test_score                 0.0392 
+rank_test_score                1.0000 
+DecisionTreeClassifier
+
+f1_macro0.5430
+
+features: [
+]
+
+params: {'model__max_depth': 9, 'model__max_features': 1}
+
+mean_fit_time                  0.0041 
+std_fit_time                   0.0002 
+mean_score_time                0.0019 
+std_score_time                 0.0001 
+param_model__max_depth         9.0000 
+param_model__max_features      1.0000 
+split0_test_score              0.4812 
+split1_test_score              0.4518 
+split2_test_score              0.4947 
+split3_test_score              0.7000 
+split4_test_score              0.5872 
+mean_test_score                0.5430 
+std_test_score                 0.0906 
+rank_test_score                1.0000 
+##################################################################
+
