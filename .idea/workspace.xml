@@ -42,7 +42,7 @@
           <entry key="ipynb" value="32" />
           <entry key="md" value="1" />
           <entry key="neighborhood_variability" value="1" />
-          <entry key="py" value="53" />
+          <entry key="py" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -51,7 +51,7 @@
           <entry key="IPNB" value="32" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="54" />
+          <entry key="Python" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -59,38 +59,20 @@
           <entry key="csv" value="541" />
           <entry key="dummy" value="10" />
           <entry key="neighborhood_variability" value="174" />
-          <entry key="py" value="19531" />
+          <entry key="py" value="19962" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="541" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="19705" />
+          <entry key="Python" value="20136" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/preprocessing.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/network.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/create_features.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
@@ -108,6 +90,27 @@
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/ModelInfo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="5" selection-end-column="32" />
+              <folding>
+                <marker date="1559547480174" expanded="true" signature="16:21" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/NodeInfo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -140,7 +143,7 @@
         <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/collective_classification.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="6" />
+              <selected id="3" />
             </state>
           </provider>
         </entry>
@@ -231,6 +234,7 @@
         <option value="$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/collective_classification.py" />
         <option value="$PROJECT_DIR$/manufacturing_company/src/network/social_network.py" />
         <option value="$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/standard_classification.py" />
+        <option value="$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/NodeInfo.py" />
         <option value="$PROJECT_DIR$/manufacturing_company/notebooks/collective_classification.ipynb" />
       </list>
     </option>
@@ -468,13 +472,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/-182473799/numpy/linalg/_umath_linalg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/linalg/linalg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -533,16 +530,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/imblearn/over_sampling/smote.py" />
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/ModelInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <marker date="1559547480174" expanded="true" signature="16:21" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/2019-06-03_09:42:57_DecisionTreeClassifier_2levels/1_months" />
     <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/2019-06-03_10:01:27_DecisionTreeClassifier_2levels/5_months" />
     <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/2019-06-03_10:05:43_DecisionTreeClassifier_2levels/5_months">
@@ -723,16 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/standard_classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manufacturing_company/src/network/social_network.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -774,6 +751,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/collective_classification.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/standard_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/ModelInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <marker date="1559547480174" expanded="true" signature="16:21" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/NodeInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/collective_classification.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
