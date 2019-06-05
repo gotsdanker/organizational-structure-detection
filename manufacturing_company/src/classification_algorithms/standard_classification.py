@@ -1,6 +1,6 @@
-import operator
 from manufacturing_company.src.common.const import *
 from manufacturing_company.src.classification_algorithms.ModelInfo import ModelInfo
+import operator
 from imblearn.over_sampling import SMOTE
 from sklearn.model_selection import GridSearchCV
 from imblearn.pipeline import Pipeline

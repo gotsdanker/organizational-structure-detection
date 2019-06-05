@@ -17,8 +17,11 @@ def calculate_weights(df):
     return df[[SENDER, RECIPIENT, WEIGHT]]
 
 
-def create_network(df):
-    return nx.from_pandas_edgelist(df, source=SENDER, target=RECIPIENT, edge_attr=WEIGHT, create_using=nx.DiGraph)
+def create_network(df, weight):
+    if weight:
+        return nx.from_pandas_edgelist(df, source=SENDER, target=RECIPIENT, edge_attr=WEIGHT, create_using=nx.DiGraph)
+    else:
+        return nx.from_pandas_edgelist(df, source=SENDER, target=RECIPIENT, create_using=nx.DiGraph)
 
 
 def calculate_network_measures(G):
