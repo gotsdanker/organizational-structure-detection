@@ -12,6 +12,11 @@ FILE_05_DELETE_DUPLICATE_MESSAGES = 'enron/data/intermediate/05_delete_duplicate
 
 FILE_MINIMUM_ACTIVITY = 'enron/data/processed/minimum_activity/months_{0}.csv'
 
+FILE_NETWORK_MEASURES = 'enron/data/processed/network_measures/months_{0}.csv'
+
+FILE_FEATURES = 'enron/data/processed/features/months_{0}.csv'
+
+
 EMAIL = 'email'
 NAME = 'name'
 DETAILS = 'details'
