@@ -5,6 +5,7 @@ EVENT_DATE = 'EventDate'
 ID = 'ID'
 REPORTS_TO_ID = 'ReportsToID'
 
+YEAR = 'year'
 MONTH = 'month'
 
 WEIGHT = 'weight'

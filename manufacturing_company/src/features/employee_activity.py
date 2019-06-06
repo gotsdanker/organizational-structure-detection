@@ -7,22 +7,23 @@ SUNDAY = 6
 
 
 def remove_employees_below_minimum_activity(communication, months):
-    end = False
+    while True:
+        communication_frequency = communication.drop_duplicates([SENDER, YEAR, MONTH]).groupby(SENDER).count()
 
-    while not end:
-        communication_frequency = communication.groupby(SENDER)[MONTH].nunique().sort_values()
+        employees_under_threshold = communication_frequency[communication_frequency[MONTH] < months].index
 
-        employees_under_threshold = communication_frequency[communication_frequency < months].index
+        # drop employees who never sent or received an email
+        at_least_one_message_sent = communication[RECIPIENT].isin(communication[SENDER])
+        at_least_one_message_received = communication[SENDER].isin(communication[RECIPIENT])
+        at_least_one_message_sent_and_received = at_least_one_message_sent & at_least_one_message_received
 
-        # drop employees who never sent an email
-        criteria_email_sent = (communication[RECIPIENT].isin(communication[SENDER]))
-        criteria_email_received = (communication[SENDER].isin(communication[RECIPIENT]))
-
-        if (len(criteria_email_sent[criteria_email_sent == False]) > 0) | (len(criteria_email_sent[criteria_email_received == False]) > 0) | (len(employees_under_threshold) != 0):
-            criteria = criteria_email_sent & criteria_email_received & (~communication[SENDER].isin(employees_under_threshold)) & (~communication[RECIPIENT].isin(employees_under_threshold))
+        if (len(communication[~at_least_one_message_sent_and_received]) > 0) | (len(employees_under_threshold) != 0):
+            sender_above_threshold = ~communication[SENDER].isin(employees_under_threshold)
+            recipient_above_threshold = ~communication[RECIPIENT].isin(employees_under_threshold)
+            criteria = at_least_one_message_sent_and_received & sender_above_threshold & recipient_above_threshold
             communication = communication[criteria]
         else:
-            end = True
+            break
 
     return communication
 
