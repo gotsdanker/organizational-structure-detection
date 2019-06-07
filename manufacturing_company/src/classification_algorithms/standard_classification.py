@@ -25,8 +25,7 @@ def assign_management_levels(levels, df_employees, df_positions):
     return df_employees
 
 
-def classification(df, algorithm, parameters, cv_scorer):
-    models = []
+def classification(df, algorithm, parameters, cv_scorer, logger, month):
     pcts = [1.0, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1]
 
     X = df.loc[:, df.columns != POSITION]
@@ -35,30 +34,21 @@ def classification(df, algorithm, parameters, cv_scorer):
     feature_names = X.columns.tolist()
 
     for pct in pcts:
-        print('FEATURES %: ', pct * 100)
-
         model = train(algorithm, X[feature_names], y, cv_scorer,
                       parameters(len(feature_names)))
 
-        print('BEST SCORE: ' + str(model.best_score_))
-
         modelInfo = ModelInfo(model, parameters, cv_scorer, feature_names, pct)
-        models.append(modelInfo)
+        logger.save(modelInfo, month)
 
         sorted_features = sorted(
             dict(zip(feature_names, model.best_estimator_.steps[1][1].
                      feature_importances_)).items(), key=operator.itemgetter(1), reverse=True)
-
-        print('Features sorted from best:\n', sorted_features)
 
         diff = len(feature_names) - round(len(X.columns) * (pct - 0.1))
 
         for i in range(0, diff):
             feature_to_delete = sorted_features[i][0]
             feature_names.remove(feature_to_delete)
-            print('REMOVED: ', feature_to_delete)
-
-    return models
 
 
 def train(algorithm, X, y, cv_scorer, parameters):
