@@ -1,0 +1,11 @@
+f1_score;pct;params;features;cv_scorer
+0.7889;1.0;{'model__max_depth': 5, 'model__max_features': 2};['in_degree', 'out_degree', 'betweenness', 'closeness', 'eigenvector', 'clustering_coeff', 'pagerank', 'hubs', 'authorities', 'max_clique', 'cliques_count', 'overtime', 'work_at_weekend', 'neighborhood_variability_sender', 'neighborhood_variability_recipient', 'neighborhood_variability_all'];f1_macro
+0.7577;0.9;{'model__max_depth': 2, 'model__max_features': 1};['out_degree', 'betweenness', 'closeness', 'eigenvector', 'clustering_coeff', 'pagerank', 'hubs', 'authorities', 'max_clique', 'cliques_count', 'overtime', 'work_at_weekend', 'neighborhood_variability_sender', 'neighborhood_variability_all'];f1_macro
+0.7315;0.8;{'model__max_depth': 3, 'model__max_features': 2};['out_degree', 'betweenness', 'closeness', 'eigenvector', 'clustering_coeff', 'pagerank', 'authorities', 'max_clique', 'cliques_count', 'overtime', 'work_at_weekend', 'neighborhood_variability_sender', 'neighborhood_variability_all'];f1_macro
+0.7491;0.7;{'model__max_depth': 6, 'model__max_features': 9};['out_degree', 'betweenness', 'closeness', 'eigenvector', 'clustering_coeff', 'pagerank', 'max_clique', 'cliques_count', 'overtime', 'work_at_weekend', 'neighborhood_variability_all'];f1_macro
+0.7591;0.6;{'model__max_depth': 5, 'model__max_features': 8};['out_degree', 'betweenness', 'closeness', 'eigenvector', 'clustering_coeff', 'pagerank', 'max_clique', 'cliques_count', 'overtime', 'work_at_weekend'];f1_macro
+0.7597;0.5;{'model__max_depth': 5, 'model__max_features': 7};['betweenness', 'eigenvector', 'clustering_coeff', 'pagerank', 'max_clique', 'cliques_count', 'overtime', 'work_at_weekend'];f1_macro
+0.7060;0.4;{'model__max_depth': 3, 'model__max_features': 4};['betweenness', 'eigenvector', 'clustering_coeff', 'max_clique', 'overtime', 'work_at_weekend'];f1_macro
+0.6771;0.3;{'model__max_depth': 10, 'model__max_features': 3};['betweenness', 'eigenvector', 'clustering_coeff', 'overtime', 'work_at_weekend'];f1_macro
+0.5570;0.2;{'model__max_depth': 4, 'model__max_features': 1};['eigenvector', 'overtime', 'work_at_weekend'];f1_macro
+0.5714;0.1;{'model__max_depth': 3, 'model__max_features': 1};['eigenvector', 'work_at_weekend'];f1_macro

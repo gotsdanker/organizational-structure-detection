@@ -3,12 +3,13 @@ import datetime
 
 
 class CollectiveClassificationLogger:
-    def __init__(self, levels):
+    def __init__(self, base_directory, levels):
+        self.base_directory = base_directory
         self.levels = levels
 
         now = datetime.datetime.now()
         directory_name = now.strftime('%Y-%m-%d_%H:%M:%S_CollectiveClassification_' + str(levels) + '_levels')
-        self.directory_path = 'manufacturing_company/logs/collective_classification/' + directory_name
+        self.directory_path = base_directory + '/logs/collective_classification/' + directory_name
 
         os.mkdir(self.directory_path)
 
@@ -17,6 +18,7 @@ class CollectiveClassificationLogger:
     def save(self, result, month):
         log_directory = self.directory_path + '/months_' + str(month)
         if not os.path.exists(log_directory):
+            self.write_header = True
             os.makedirs(log_directory)
 
         log_file = log_directory + '/log.csv'

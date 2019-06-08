@@ -86,7 +86,7 @@ def message_passing(G, known_nodes, threshold, minority_labels, levels, jaccard_
 
                     for neighbor_id in neighbors:
                         neighbor = G.nodes[neighbor_id]
-                        if neighbor['utility_score'] > max_utility_score & neighbor['label'] != -1:
+                        if (neighbor['utility_score'] > max_utility_score) & (neighbor['label'] != -1):
                             max_utility_score = neighbor['utility_score']
                             node_label = neighbor['label']
 
@@ -105,11 +105,8 @@ def message_passing(G, known_nodes, threshold, minority_labels, levels, jaccard_
     return nodes
 
 
-def collective_classification(logger, month, G, df_features, pct, levels, df_positions, threshold, minority_labels,
-                              jaccard_min):
-    feature_names = df_features.columns
-
-    df_features = assign_management_levels(levels, df_features, df_positions)
+def collective_classification(logger, month, G, df_features, pct, levels, df_positions, threshold, minority_labels, jaccard_min):
+    feature_names = df_features.loc[:, df_features.columns != POSITION]
 
     for utility_score_name in feature_names:
         utility_score = df_features[[utility_score_name, POSITION]]
