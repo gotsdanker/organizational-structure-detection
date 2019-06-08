@@ -16,12 +16,9 @@ class CollectiveClassificationLogger:
         self.write_header = True
 
     def save(self, result, month):
-        log_directory = self.directory_path + '/months_' + str(month)
-        if not os.path.exists(log_directory):
+        log_file = self.directory_path + '/log_months_' + str(month) + '.csv'
+        if not os.path.exists(log_file):
             self.write_header = True
-            os.makedirs(log_directory)
-
-        log_file = log_directory + '/log.csv'
 
         with open(log_file, 'a') as file:
             if self.write_header:

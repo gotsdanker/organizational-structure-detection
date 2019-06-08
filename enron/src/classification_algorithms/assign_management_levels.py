@@ -3,7 +3,6 @@ import numpy as np
 
 
 def assign_management_levels_cc(levels, df_employees, df_positions):
-    print('ok')
     if levels == 2:
         df_employees[POSITION] = 2
         management_level = df_positions[df_positions[POSITION].isin(np.arange(1, levels))].index

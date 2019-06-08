@@ -58,6 +58,6 @@ def train(algorithm, X, y, cv_scorer, parameters):
 
     pipeline = Pipeline([('smote', smote), ('model', alg)])
 
-    gs = GridSearchCV(pipeline, parameters, cv=5, scoring=cv_scorer, n_jobs=1, iid=False)
+    gs = GridSearchCV(pipeline, parameters, cv=5, scoring=cv_scorer, n_jobs=-1, iid=False)
     model = gs.fit(X, y)
     return model
