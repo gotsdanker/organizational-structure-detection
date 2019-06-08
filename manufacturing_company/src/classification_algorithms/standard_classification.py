@@ -1,9 +1,10 @@
-from manufacturing_company.src.common.const import *
-from manufacturing_company.src.classification_algorithms.ModelInfo import ModelInfo
 import operator
 from imblearn.over_sampling import SMOTE
 from sklearn.model_selection import GridSearchCV
 from imblearn.pipeline import Pipeline
+
+from manufacturing_company.src.common.const import *
+from manufacturing_company.src.classification_algorithms.ModelInfo import ModelInfo
 
 
 def assign_management_levels(levels, df_employees, df_positions):
@@ -34,18 +35,22 @@ def classification(df, algorithm, parameters, cv_scorer, logger, month):
     feature_names = X.columns.tolist()
 
     for pct in pcts:
-        model = train(algorithm, X[feature_names], y, cv_scorer,
-                      parameters(len(feature_names)))
+        # train model
+        model = train(algorithm, X[feature_names], y, cv_scorer, parameters(len(feature_names)))
 
+        # log result
         modelInfo = ModelInfo(model, parameters, cv_scorer, feature_names, pct)
         logger.save(modelInfo, month)
 
+        # sort features from the most important
         sorted_features = sorted(
             dict(zip(feature_names, model.best_estimator_.steps[1][1].
                      feature_importances_)).items(), key=operator.itemgetter(1), reverse=True)
 
+        # calculate how many results to remove for a given percentage
         diff = len(feature_names) - round(len(X.columns) * (pct - 0.1))
 
+        # remove the best features
         for i in range(0, diff):
             feature_to_delete = sorted_features[i][0]
             feature_names.remove(feature_to_delete)

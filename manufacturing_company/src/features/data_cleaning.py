@@ -1,6 +1,7 @@
-from manufacturing_company.src.common.const import *
 import numpy as np
 import pandas as pd
+
+from manufacturing_company.src.common.const import *
 
 
 def remove_former_employee_and_technical_accounts(communication, reportsto):

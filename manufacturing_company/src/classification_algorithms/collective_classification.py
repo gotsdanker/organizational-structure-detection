@@ -1,12 +1,13 @@
+import operator
+import pandas as pd
+import networkx as nx
+from sklearn.metrics import jaccard_score, f1_score
+
 from manufacturing_company.src.common.const import *
 from manufacturing_company.src.classification_algorithms.NodeInfo import NodeInfo
 from manufacturing_company.src.classification_algorithms.standard_classification import *
-import pandas as pd
-import operator
-import networkx as nx
 from manufacturing_company.src.classification_algorithms.CollectiveClassificationResult import CollectiveClassificationResult
-from manufacturing_company.src.logs.collective_classification_logger import CollectiveClassificationLogger
-from sklearn.metrics import jaccard_score, f1_score
+
 
 
 def select_nodes_based_on_utility_score(utility_score_name, utility_score, pct, levels):
@@ -39,6 +40,7 @@ def message_passing(G, known_nodes, threshold, minority_labels, levels, jaccard_
 
     label_counter = {node_id: NodeInfo() for node_id in nodes.keys()}
 
+    # message passing
     for i in range(max_iter):
         old_labels = [value for (key, value) in nodes.items() if key not in known_nodes]
         for node, label in nodes.items():
@@ -48,11 +50,9 @@ def message_passing(G, known_nodes, threshold, minority_labels, levels, jaccard_
                     if neighbor not in known_nodes:
                         label_counter[neighbor].labels.append(label)
 
-        # UPDATE LABELS
+        # update labels
         for node, label in nodes.items():
-            unique_labels = len(set(label_counter[node].labels)) == 1
-
-            # TODO method calculate label frequency
+            # calculate how many times each label has been sent to the node
             label_freq = None
             if levels == 2:
                 label_freq = {1: 0, 2: 0}
@@ -70,14 +70,21 @@ def message_passing(G, known_nodes, threshold, minority_labels, levels, jaccard_
 
             same_freq = len(set(label_freq.values())) == 1
 
-            # TODO function select update strategy
+            unique_labels = len(set(label_counter[node].labels)) == 1
+
+            # select update strategy
+            #       unique_labels  - all received nodes are the same
+            #       same_freq - each label was sent the same number
+            #       else - select label with the highest count
             if unique_labels:
                 nodes[node] = label_counter[node].labels[0]
                 label_counter[node].unchanged_iter = 0
             elif same_freq:
-                # TODO update unchanged state
+                # check that there is no favorite among the nodes
                 label_counter[node].unchanged_iter += 1
 
+                # if the node has not changed the label 10 times
+                # assign a new label from the neighbor with the highest utility score
                 if label_counter[node].unchanged_iter > 10:
                     neighbors = G.neighbors(node)
 
@@ -99,13 +106,15 @@ def message_passing(G, known_nodes, threshold, minority_labels, levels, jaccard_
             label_counter[node].labels = []
 
         new_labels = [value for (key, value) in nodes.items() if key not in known_nodes]
+
+        # check the stop condition
         if (jaccard_score(old_labels, new_labels, average='micro') >= jaccard_min) & (-1 not in nodes.values()):
             break
 
     return nodes
 
 
-def collective_classification(logger, month, G, df_features, pct, levels, df_positions, threshold, minority_labels, jaccard_min):
+def collective_classification(logger, month, G, df_features, pct, levels, threshold, minority_labels, jaccard_min):
     feature_names = df_features.loc[:, df_features.columns != POSITION]
 
     for utility_score_name in feature_names:
@@ -127,6 +136,5 @@ def collective_classification(logger, month, G, df_features, pct, levels, df_pos
 
         f1 = f1_score(df_merged.iloc[:, 0], df_merged.iloc[:, 1], average='macro')
 
-        logger.save(
-            CollectiveClassificationResult(f1, pct, utility_score_name, threshold, jaccard_min, minority_labels), month)
+        logger.save(CollectiveClassificationResult(f1, pct, utility_score_name, threshold, jaccard_min, minority_labels), month)
 

@@ -1,6 +1,7 @@
-from manufacturing_company.src.common.const import *
-from enron.src.common.const import *
 import pandas as pd
+
+from enron.src.common.const import *
+from manufacturing_company.src.common.const import *
 
 
 def load_employees():

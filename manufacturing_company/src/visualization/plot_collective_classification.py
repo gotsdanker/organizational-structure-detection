@@ -1,14 +1,16 @@
-from manufacturing_company.src.common.const import *
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+from manufacturing_company.src.common.const import *
+
 
 class PlotCollectiveClassification:
-    def __init__(self, path, levels):
+    def __init__(self, path, levels, random_baseline):
         self.path = path
         self.levels = levels
+        self.random_baseline = random_baseline
         self.colors = ['red', 'blue', 'black', '#2FBF71', '#FAA916']
         self.markers = ['D', 's', '<', 'o', 'X']
         self.linestyles = ['--', '-', '--', '-', '--']
@@ -27,7 +29,8 @@ class PlotCollectiveClassification:
             plt.plot(self.x_labels, result_series.tolist(), label=str(month), linestyle=self.linestyles[month-1], marker=self.markers[month-1], color=self.colors[month-1])
 
         # random result is approximately 0.42 based on the results from random_classification.ipynb
-        random_values = [0.42]*9
+
+        random_values = [self.random_baseline(self.levels)]*9
         plt.plot(self.x_labels, random_values, label='random', linestyle=':', marker='*', color='black')
 
         plt.legend(loc='lower left', fontsize='small')

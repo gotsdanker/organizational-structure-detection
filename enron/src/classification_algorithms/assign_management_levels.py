@@ -1,5 +1,5 @@
-from manufacturing_company.src.common.const import *
 import numpy as np
+from manufacturing_company.src.common.const import *
 
 
 def assign_management_levels_cc(levels, df_employees, df_positions):

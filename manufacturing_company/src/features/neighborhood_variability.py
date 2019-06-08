@@ -1,7 +1,8 @@
-from manufacturing_company.src.common.const import *
 import numpy as np
 import pandas as pd
 from sklearn.metrics import jaccard_score
+
+from manufacturing_company.src.common.const import *
 
 
 def neighbors_per_month_sender(df, all_employees):

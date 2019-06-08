@@ -1,7 +1,8 @@
-from manufacturing_company.src.common.const import *
+import pandas as pd
 import networkx as nx
 from networkx.algorithms.clique import cliques_containing_node, node_clique_number
-import pandas as pd
+
+from manufacturing_company.src.common.const import *
 
 
 def calculate_weights(df):
