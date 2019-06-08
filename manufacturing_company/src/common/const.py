@@ -1,8 +1,11 @@
 # FILES
-MC_FILE_01_AFTER_DATA_CLEANING_COMMUNICATION = 'manufacturing_company/data/intermediate/01_after_data_cleaning/communication.csv'
-MC_FILE_01_AFTER_DATA_CLEANING_REPORTSTO = 'manufacturing_company/data/intermediate/01_after_data_cleaning/reportsto.csv'
+MC_FILE_01_REMOVE_FORMER_EMPLOYEE_AND_TECHNICAL_ACCOUNTS_COMMUNICATION = 'manufacturing_company/data/intermediate/01_remove_former_employee_and_technical_accounts/communication.csv'
+MC_FILE_01_REMOVE_FORMER_EMPLOYEE_AND_TECHNICAL_ACCOUNTS_REPORTSTO = 'manufacturing_company/data/intermediate/01_remove_former_employee_and_technical_accounts/reportsto.csv'
 
-MC_FILE_02_DROP_DUPLICATES = 'manufacturing_company/data/intermediate/02_drop_duplicates/communication.csv'
+MC_FILE_02_REMOVE_MESSAGES_SENT_TO_YOURSELF_COMMUNICATION = 'manufacturing_company/data/intermediate/02_remove_messages_sent_to_yourself/communication.csv'
+MC_FILE_02_REMOVE_MESSAGES_SENT_TO_YOURSELF_REPORTSTO = 'manufacturing_company/data/intermediate/02_remove_messages_sent_to_yourself/reportsto.csv'
+
+MC_FILE_03_DROP_DUPLICATES = 'manufacturing_company/data/intermediate/03_drop_duplicates/communication.csv'
 
 MC_FILE_MINIMUM_ACTIVITY = 'manufacturing_company/data/processed/minimum_activity/months_{0}.csv'
 

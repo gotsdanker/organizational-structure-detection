@@ -7,7 +7,7 @@ from manufacturing_company.src.common.const import *
 from manufacturing_company.src.classification_algorithms.ModelInfo import ModelInfo
 
 
-def assign_management_levels(levels, df_employees, df_positions):
+def assign_management_levels_mc(levels, df_employees, df_positions):
     if levels == 2:
         df_employees[POSITION] = 2
         management_level = df_positions.index

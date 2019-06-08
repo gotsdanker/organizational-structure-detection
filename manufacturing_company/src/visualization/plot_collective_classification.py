@@ -22,7 +22,7 @@ class PlotCollectiveClassification:
 
         plt.figure(figsize=(10, 6))
 
-        for month in range(1, MONTHS):
+        for month in MONTHS:
             df = pd.read_csv(self.path + '/log_months_' + str(month) + '.csv', sep=';')
             result_series = df.groupby('pct')['f1_score'].max()
             result_series = result_series.sort_index(ascending=False)

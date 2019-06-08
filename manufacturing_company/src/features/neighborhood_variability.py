@@ -32,9 +32,9 @@ def merge_contacted_ids(row):
         return row[1]
     if row[1] is np.NaN:
         return row[0]
-    msg_x = np.array(row[0])
-    msg_y = np.array(row[1])
-    return msg_x | msg_y
+    sent = np.array(row[0])
+    received = np.array(row[1])
+    return sent | received
 
 
 def fill_missing_neighbors(df, all_employees):
@@ -56,12 +56,10 @@ def calculate_neighborhood_variability(df, all_employees):
 
 def calculate_jaccard(df):
     employee_ids = df.index.get_level_values(0).unique()
-    # print(employee_ids)
+
     neighborhood_variability = dict()
 
     for id in employee_ids:
-        # print(id)
-        # print('***')
         row = df.loc[(id, slice(None), slice(None))]
         neighborhood_variability[id] = jaccard(row, id)
 
@@ -92,6 +90,6 @@ def jaccard(rows, employee_id):
 
             jaccard.append(jaccard_score(current_set, next_set))
 
-    return np.mean(jaccard)
+    return np.median(jaccard)
 
 

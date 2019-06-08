@@ -12,7 +12,7 @@ def load_employees():
 
 
 def load_emails():
-    emails = pd.read_csv('enron/data/raw/execs.email.linesnum', sep=' ')
+    emails = pd.read_csv('enron/data/raw/execs.email.linesnum', sep=' ', header=None)
     emails.columns = [EVENT_DATE, SENDER, RECIPIENT]
     emails[EVENT_DATE] = pd.to_datetime(emails[EVENT_DATE], unit='s')
     return emails

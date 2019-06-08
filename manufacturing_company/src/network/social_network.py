@@ -13,6 +13,8 @@ def calculate_weights(df):
     weights_df[WEIGHT] = weights_df['0_x'] / weights_df['0_y']
 
     df = df.merge(weights_df, on=[SENDER, RECIPIENT])
+
+    # drop duplicates in data frame with emails to get the edges of the graph with calculated weights
     df = df.drop_duplicates([SENDER, RECIPIENT])
 
     return df[[SENDER, RECIPIENT, WEIGHT]]

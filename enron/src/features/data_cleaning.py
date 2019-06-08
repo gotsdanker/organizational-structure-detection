@@ -14,7 +14,7 @@ def delete_nan(employees, emails):
 
 def group_duplicates_email_addresses(employees):
     employees = employees.reset_index()
-    return employees.groupby(NAME)[ID].apply(list)
+    return employees.groupby([NAME, POSITION, DETAILS])[ID].apply(list)
 
 
 def remap_employee_ids(employees, emails):
@@ -23,14 +23,20 @@ def remap_employee_ids(employees, emails):
     id_map = {}
 
     def create_map_with_new_ids(row):
-        if len(row) > 1:
-            id_map[row[0]] = row[1:]
+        more_than_one_id = len(row) > 1
+
+        if more_than_one_id:
+            first_id = row[0]
+            other_ids = row[1:]
+
+            id_map[first_id] = other_ids
 
     grouped_employees.apply(create_map_with_new_ids)
 
-    d = {k: oldk for oldk, oldv in id_map.items() for k in oldv}
+    # remap other ids to the first id
+    new_ids = {k: oldk for oldk, oldv in id_map.items() for k in oldv}
 
-    return emails.replace(d)
+    return emails.replace(new_ids)
 
 
 def delete_messages_sent_to_yourself(emails):

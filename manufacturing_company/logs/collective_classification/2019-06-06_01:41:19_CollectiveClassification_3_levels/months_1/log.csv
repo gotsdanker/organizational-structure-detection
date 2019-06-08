@@ -1,6 +1,0 @@
-f1_score;pct;utility_score;threshold;jaccard;minority_classes
-0.3082;0.6;in_degree;4;0.8;[1, 2]
-0.3082;0.6;out_degree;4;0.8;[1, 2]
-0.3043;0.6;betweenness;4;0.8;[1, 2]
-0.3082;0.6;closeness;4;0.8;[1, 2]
-0.3043;0.6;eigenvector;4;0.8;[1, 2]

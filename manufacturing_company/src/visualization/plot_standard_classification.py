@@ -23,7 +23,7 @@ class PlotStandardClassification:
 
         plt.figure(figsize=(10, 6))
 
-        for month in range(1, MONTHS):
+        for month in MONTHS:
             df = pd.read_csv(self.path + '/log_months_' + str(month) + '.csv', sep=';')
             f1_pct_dict = df[['f1_score', 'pct']].to_dict('list')
             plt.plot(self.x_labels, f1_pct_dict['f1_score'], label=str(month), linestyle=self.linestyles[month-1], marker=self.markers[month-1], color=self.colors[month-1])
