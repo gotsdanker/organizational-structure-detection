@@ -4,7 +4,7 @@ import pandas as pd
 
 
 def load_employees():
-    employees = pd.read_csv('enron/data//raw/employees.txt', sep=';', header=None)
+    employees = pd.read_csv('enron/data/raw/employees.txt', sep=';', header=None)
     employees.index.name = ID
     employees.columns = [EMAIL, NAME, POSITION, DETAILS]
     return employees
