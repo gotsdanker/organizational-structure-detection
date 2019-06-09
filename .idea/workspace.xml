@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="82a51d1b-7598-45ff-96b5-6ee3621b5fd4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enron/notebooks/create_features.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/enron/notebooks/create_features.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enron/notebooks/preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/enron/notebooks/preprocessing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enron/notebooks/standard_classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/enron/notebooks/standard_classification.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manufacturing_company/notebooks/create_features.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/notebooks/create_features.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manufacturing_company/notebooks/preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/notebooks/preprocessing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manufacturing_company/notebooks/standard_classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/notebooks/standard_classification.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enron/notebooks/collective_classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/enron/notebooks/collective_classification.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/notebooks/collective_classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/notebooks/collective_classification.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/collective_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/collective_classification.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,81 +16,71 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/standard_classification/2019-06-08_23:43:29_RandomForestClassifier_3_levels/log_months_1.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enron/logs/standard_classification/2019-06-08_21:34:10_RandomForestClassifier_3_levels/log_months_1.csv">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/collective_classification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enron/logs/standard_classification/2019-06-08_18:50:13_DecisionTreeClassifier_3_levels/log_months_1.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/standard_classification/2019-06-08_23:43:29_RandomForestClassifier_3_levels/log_months_2.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/standard_classification/2019-06-08_23:43:29_RandomForestClassifier_3_levels/log_months_5.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manufacturing_company/src/logs/standard_classification_logger.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="585">
+              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/standard_classification.ipynb">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/collective_classification.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="5" />
+              <selected id="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/standard_classification/2019-06-08_18:56:00_DecisionTreeClassifier_3_levels/log_months_1.csv">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/collective_classification/2019-06-09_08:58:24_CollectiveClassification_3_levels/log_months_1.csv">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enron/logs/standard_classification/2019-06-08_18:44:39_DecisionTreeClassifier_2_levels/log_months_1.csv">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/collective_classification/2019-06-09_08:16:19_CollectiveClassification_2_levels/log_months_1.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/collective_classification/2019-06-09_06:43:25_CollectiveClassification_2_levels/log_months_1.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="645">
+              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enron/logs/standard_classification/2019-06-08_19:09:01_RandomForestClassifier_2_levels/log_months_1.csv">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/collective_classification/2019-06-09_06:43:25_CollectiveClassification_2_levels/log_months_3.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/collective_classification/2019-06-09_06:43:25_CollectiveClassification_2_levels/log_months_5.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+            <state relative-caret-position="-77138" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/enron/notebooks/collective_classification.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/enron/logs/collective_classification/2019-06-09_03:11:43_CollectiveClassification_2_levels/log_months_1.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="421" column="29" lean-forward="true" selection-start-line="421" selection-start-column="29" selection-end-line="421" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -133,6 +120,7 @@
       <find>-1</find>
       <find>xxx</find>
       <find>over</find>
+      <find>^0.8</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/enron/data/processed/features/months_5.csv" />
         <option value="$PROJECT_DIR$/enron/data/processed/minimum_activity/months_1.csv" />
         <option value="$PROJECT_DIR$/enron/data/processed/minimum_activity/months_2.csv" />
         <option value="$PROJECT_DIR$/enron/data/processed/minimum_activity/months_3.csv" />
@@ -178,8 +165,6 @@
         <option value="$PROJECT_DIR$/manufacturing_company/data/intermediate/02_drop_duplicates/communication.csv" />
         <option value="$PROJECT_DIR$/manufacturing_company/data/intermediate/01_after_data_cleaning/reportsto.csv" />
         <option value="$PROJECT_DIR$/manufacturing_company/data/intermediate/01_after_data_cleaning/communication.csv" />
-        <option value="$PROJECT_DIR$/enron/notebooks/collective_classification.ipynb" />
-        <option value="$PROJECT_DIR$/manufacturing_company/notebooks/collective_classification.ipynb" />
         <option value="$PROJECT_DIR$/enron/notebooks/random_classification.ipynb" />
         <option value="$PROJECT_DIR$/enron/src/visualization/random_baseline_enron.py" />
         <option value="$PROJECT_DIR$/manufacturing_company/notebooks/random_classification.ipynb" />
@@ -192,6 +177,9 @@
         <option value="$PROJECT_DIR$/enron/notebooks/create_features.ipynb" />
         <option value="$PROJECT_DIR$/enron/notebooks/standard_classification.ipynb" />
         <option value="$PROJECT_DIR$/manufacturing_company/notebooks/standard_classification.ipynb" />
+        <option value="$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/collective_classification.py" />
+        <option value="$PROJECT_DIR$/enron/notebooks/collective_classification.ipynb" />
+        <option value="$PROJECT_DIR$/manufacturing_company/notebooks/collective_classification.ipynb" />
       </list>
     </option>
   </component>
@@ -254,6 +242,29 @@
               <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
               <item name="enron" type="462c0819:PsiDirectoryNode" />
               <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
+              <item name="enron" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="collective_classification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
+              <item name="enron" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="collective_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-06-09_03:11:43_CollectiveClassification_2_levels" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
+              <item name="enron" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="collective_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-06-09_04:44:39_CollectiveClassification_3_levels" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
@@ -426,6 +437,37 @@
               <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
               <item name="manufacturing_company" type="462c0819:PsiDirectoryNode" />
               <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
+              <item name="manufacturing_company" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="collective_classification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
+              <item name="manufacturing_company" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="collective_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-06-09_06:43:25_CollectiveClassification_2_levels" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
+              <item name="manufacturing_company" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="collective_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-06-09_08:16:19_CollectiveClassification_2_levels" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organizational-structure-detection" type="462c0819:PsiDirectoryNode" />
+              <item name="manufacturing_company" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="collective_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-06-09_08:58:24_CollectiveClassification_3_levels" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="organizational-structure-detection" type="b2602c69:ProjectViewProjectNode" />
@@ -675,87 +717,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/processed/features/months_5.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/03_drop_duplicates/communication.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/collective_classification.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enron/src/visualization/random_baseline_enron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/visualization/random_baseline_mc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/features/employee_activity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" column="82" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enron/notebooks/collective_classification.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/data_analysis.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/standard_classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enron/data/processed/features/months_2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="141" selection-start-column="126" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/random_classification.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/common/const.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="150" selection-start-line="4" selection-start-column="137" selection-end-line="4" selection-end-column="150" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manufacturing_company/data/intermediate/02_remove_messages_sent_to_yourself/communication.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -949,14 +910,14 @@
     <entry file="file://$PROJECT_DIR$/enron/logs/standard_classification/2019-06-08_18:50:13_DecisionTreeClassifier_3_levels/log_months_1.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/enron/logs/standard_classification/2019-06-08_18:44:39_DecisionTreeClassifier_2_levels/log_months_1.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -970,7 +931,7 @@
     <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/standard_classification/2019-06-08_23:43:29_RandomForestClassifier_3_levels/log_months_2.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -989,7 +950,72 @@
     <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/standard_classification.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="5" />
+          <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enron/logs/collective_classification/2019-06-09_03:11:43_CollectiveClassification_2_levels/log_months_2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72278" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enron/logs/collective_classification/2019-06-09_03:11:43_CollectiveClassification_2_levels/log_months_3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19983" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/collective_classification/2019-06-09_06:43:25_CollectiveClassification_2_levels/log_months_3.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/collective_classification/2019-06-09_06:43:25_CollectiveClassification_2_levels/log_months_5.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77138" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enron/notebooks/collective_classification.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/collective_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/collective_classification/2019-06-09_08:16:19_CollectiveClassification_2_levels/log_months_1.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/collective_classification/2019-06-09_06:43:25_CollectiveClassification_2_levels/log_months_1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/collective_classification.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/collective_classification/2019-06-09_08:58:24_CollectiveClassification_3_levels/log_months_1.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/logs/collective_classification/2019-06-09_06:43:25_CollectiveClassification_2_levels/plot.eps">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enron/logs/collective_classification/2019-06-09_03:11:43_CollectiveClassification_2_levels/log_months_1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="421" column="29" lean-forward="true" selection-start-line="421" selection-start-column="29" selection-end-line="421" selection-end-column="29" />
         </state>
       </provider>
     </entry>

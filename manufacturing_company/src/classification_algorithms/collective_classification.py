@@ -29,14 +29,15 @@ def select_nodes_based_on_utility_score(utility_score_name, utility_score, pct, 
 def message_passing(G, known_nodes, threshold, minority_labels, levels, jaccard_min):
     max_iter = 1000
 
-    df_nodes = pd.DataFrame(G.nodes(data='utility_score'), columns=[ID, 'utility_score'])
-    df_nodes = df_nodes.set_index(ID)
+    # df_nodes = pd.DataFrame(G.nodes(data='utility_score'), columns=[ID, 'utility_score'])
+    # df_nodes = df_nodes.set_index(ID)
 
-    order_desc = df_nodes.sort_values('utility_score', ascending=True).index
+    # order_desc = df_nodes.sort_values('utility_score', ascending=True).index
 
     nodes = pd.DataFrame(G.nodes(data='label'), columns=[ID, 'label'])
     nodes = nodes.set_index(ID)
-    nodes = nodes.loc[order_desc, 'label'].to_dict()
+    # nodes = nodes.loc[order_desc, 'label'].to_dict()
+    nodes = nodes.loc[:, 'label'].to_dict()
 
     label_counter = {node_id: NodeInfo() for node_id in nodes.keys()}
 
