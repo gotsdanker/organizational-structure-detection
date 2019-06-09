@@ -1,0 +1,11 @@
+f1_score;pct;params;features;cv_scorer
+0.7849;1.0;{'model__max_depth': 2.0, 'model__max_features': 12};['in_degree', 'out_degree', 'betweenness', 'closeness', 'eigenvector', 'clustering_coeff', 'pagerank', 'hubs', 'authorities', 'max_clique', 'cliques_count', 'work_at_weekend', 'neighborhood_variability_sender', 'neighborhood_variability_recipient', 'neighborhood_variability_all'];f1_macro
+0.7506;0.9;{'model__max_depth': 2.0, 'model__max_features': 9};['out_degree', 'betweenness', 'closeness', 'eigenvector', 'clustering_coeff', 'pagerank', 'hubs', 'authorities', 'max_clique', 'cliques_count', 'work_at_weekend', 'neighborhood_variability_sender', 'neighborhood_variability_recipient', 'neighborhood_variability_all'];f1_macro
+0.7548;0.8;{'model__max_depth': 2.0, 'model__max_features': 3};['out_degree', 'betweenness', 'closeness', 'eigenvector', 'clustering_coeff', 'pagerank', 'hubs', 'authorities', 'max_clique', 'work_at_weekend', 'neighborhood_variability_recipient', 'neighborhood_variability_all'];f1_macro
+0.7294;0.7;{'model__max_depth': 4.0, 'model__max_features': 3};['out_degree', 'betweenness', 'closeness', 'eigenvector', 'clustering_coeff', 'pagerank', 'hubs', 'authorities', 'work_at_weekend', 'neighborhood_variability_recipient', 'neighborhood_variability_all'];f1_macro
+0.7332;0.6;{'model__max_depth': 3.0, 'model__max_features': 1};['out_degree', 'betweenness', 'eigenvector', 'clustering_coeff', 'pagerank', 'hubs', 'work_at_weekend', 'neighborhood_variability_recipient', 'neighborhood_variability_all'];f1_macro
+0.7275;0.5;{'model__max_depth': 5.0, 'model__max_features': 4};['out_degree', 'betweenness', 'eigenvector', 'clustering_coeff', 'pagerank', 'work_at_weekend', 'neighborhood_variability_recipient', 'neighborhood_variability_all'];f1_macro
+0.7113;0.4;{'model__max_depth': 7.0, 'model__max_features': 2};['betweenness', 'eigenvector', 'clustering_coeff', 'pagerank', 'work_at_weekend', 'neighborhood_variability_recipient'];f1_macro
+0.6829;0.3;{'model__max_depth': 3.0, 'model__max_features': 2};['betweenness', 'eigenvector', 'pagerank', 'work_at_weekend', 'neighborhood_variability_recipient'];f1_macro
+0.5201;0.2;{'model__max_depth': 3.0, 'model__max_features': 1};['betweenness', 'eigenvector', 'pagerank'];f1_macro
+0.5538;0.1;{'model__max_depth': 2.0, 'model__max_features': 1};['betweenness', 'eigenvector'];f1_macro

@@ -1,0 +1,11 @@
+f1_score;pct;params;features;cv_scorer
+0.4585;1.0;{'model__max_depth': 10.0, 'model__max_features': 1};['in_degree', 'out_degree', 'betweenness', 'closeness', 'eigenvector', 'clustering_coeff', 'pagerank', 'hubs', 'authorities', 'max_clique', 'cliques_count', 'overtime', 'work_at_weekend', 'neighborhood_variability_sender', 'neighborhood_variability_recipient', 'neighborhood_variability_all'];f1_macro
+0.4071;0.9;{'model__max_depth': 12.0, 'model__max_features': 5};['out_degree', 'betweenness', 'closeness', 'eigenvector', 'pagerank', 'hubs', 'authorities', 'max_clique', 'cliques_count', 'overtime', 'work_at_weekend', 'neighborhood_variability_sender', 'neighborhood_variability_recipient', 'neighborhood_variability_all'];f1_macro
+0.4737;0.8;{'model__max_depth': 11.0, 'model__max_features': 1};['out_degree', 'betweenness', 'closeness', 'eigenvector', 'pagerank', 'hubs', 'authorities', 'max_clique', 'cliques_count', 'overtime', 'neighborhood_variability_sender', 'neighborhood_variability_recipient', 'neighborhood_variability_all'];f1_macro
+0.3835;0.7;{'model__max_depth': 6.0, 'model__max_features': 10};['out_degree', 'betweenness', 'closeness', 'eigenvector', 'pagerank', 'hubs', 'max_clique', 'cliques_count', 'neighborhood_variability_sender', 'neighborhood_variability_recipient', 'neighborhood_variability_all'];f1_macro
+0.3564;0.6;{'model__max_depth': 11.0, 'model__max_features': 8};['out_degree', 'betweenness', 'closeness', 'eigenvector', 'pagerank', 'hubs', 'cliques_count', 'neighborhood_variability_sender', 'neighborhood_variability_recipient', 'neighborhood_variability_all'];f1_macro
+0.3992;0.5;{'model__max_depth': 12.0, 'model__max_features': 4};['out_degree', 'betweenness', 'closeness', 'eigenvector', 'pagerank', 'hubs', 'cliques_count', 'neighborhood_variability_recipient'];f1_macro
+0.3319;0.4;{'model__max_depth': 11.0, 'model__max_features': 4};['out_degree', 'betweenness', 'closeness', 'eigenvector', 'pagerank', 'cliques_count'];f1_macro
+0.3685;0.3;{'model__max_depth': 6.0, 'model__max_features': 2};['out_degree', 'betweenness', 'closeness', 'eigenvector', 'pagerank'];f1_macro
+0.2924;0.2;{'model__max_depth': 7.0, 'model__max_features': 1};['closeness', 'eigenvector', 'pagerank'];f1_macro
+0.2910;0.1;{'model__max_depth': 12.0, 'model__max_features': 1};['closeness', 'eigenvector'];f1_macro
