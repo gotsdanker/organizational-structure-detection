@@ -1,2 +1,0 @@
-minority_labels=[1,2]
-if same_freq then 1
