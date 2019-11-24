@@ -69,36 +69,20 @@ def message_passing(G, known_nodes, threshold, minority_labels, levels, jaccard_
                     size = round(size / float(threshold))
                 label_freq[l] = size
 
-            same_freq = len(set(label_freq.values())) == 1
-
-            unique_labels = len(set(label_counter[node].labels)) == 1
+            # ZAKOMENTOWAC
+            same_freq = len(set(label_freq.values())) < levels
 
             # select update strategy
-            #       unique_labels  - all received nodes are the same
-            #       same_freq - each label was sent the same number
+            #       same_freq - more than one label has max count
             #       else - select label with the highest count
-            if unique_labels:
-                nodes[node] = label_counter[node].labels[0]
-                label_counter[node].unchanged_iter = 0
-            elif same_freq:
+            if same_freq:
                 # check that there is no favorite among the nodes
                 label_counter[node].unchanged_iter += 1
 
                 # if the node has not changed the label 10 times
                 # assign a new label from the neighbor with the highest utility score
                 if label_counter[node].unchanged_iter > 10:
-                    neighbors = G.neighbors(node)
-
-                    max_utility_score = -1
-                    node_label = -1
-
-                    for neighbor_id in neighbors:
-                        neighbor = G.nodes[neighbor_id]
-                        if (neighbor['utility_score'] > max_utility_score) & (neighbor['label'] != -1):
-                            max_utility_score = neighbor['utility_score']
-                            node_label = neighbor['label']
-
-                    nodes[node] = node_label
+                    nodes[node] = max(label_freq.items(), key=operator.itemgetter(1))[0]
                     label_counter[node].unchanged_iter = 0
             else:
                 nodes[node] = max(label_freq.items(), key=operator.itemgetter(1))[0]

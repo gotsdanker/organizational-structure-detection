@@ -15,7 +15,8 @@ class PlotStandardClassification:
         self.colors = ['red', 'blue', 'black', '#2FBF71', '#FAA916']
         self.markers = ['D', 's', '<', 'o', 'X']
         self.linestyles = ['--', '-', '--', '-', '--']
-        self.x_labels = ['100%', '90%', '80%', '70%', '60%', '50%', '40%', '30%', '20%', '10%']
+        # self.x_labels = ['100%', '90%', '80%', '70%', '60%', '50%', '40%', '30%', '20%', '10%']
+        self.x_labels = ['10%', '20%', '30%', '40%', '50%', '60%', '70%', '80%', '90%', '100%']
 
     def plot(self):
         sns.set_style("darkgrid")
@@ -24,7 +25,7 @@ class PlotStandardClassification:
         plt.figure(figsize=(10, 6))
 
         for month in MONTHS:
-            df = pd.read_csv(self.path + '/log_months_' + str(month) + '.csv', sep=';')
+            df = pd.read_csv(self.path + '/log_months_' + str(month) + '.csv', sep=';').sort_values('pct')
             f1_pct_dict = df[['f1_score', 'pct']].to_dict('list')
             plt.plot(self.x_labels, f1_pct_dict['f1_score'], label=str(month), linestyle=self.linestyles[month-1], marker=self.markers[month-1], color=self.colors[month-1])
 
@@ -32,14 +33,19 @@ class PlotStandardClassification:
         random_values = [self.random_baseline(self.levels)]*10
         plt.plot(self.x_labels, random_values, label='random', linestyle=':', marker='*', color='black')
 
+        if self.levels == 2:
+            levels_desc = 'two'
+        else:
+            levels_desc = 'three'
+
         plt.legend(loc='lower left', fontsize='small')
         plt.xlim(-1, 10)
         plt.ylim(0, 1)
         plt.xticks(np.arange(0,11))
-        plt.xlabel('Percentage of the used features')
+        plt.xlabel('Used features')
         plt.ylabel('f1 score (macro)')
-        plt.title(self.algorithm + ' - ' + str(self.levels) + ' management levels')
+        plt.title(self.algorithm + ' - ' + levels_desc + ' management levels')
         plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0., title='Minimum activity in months')
-        plt.savefig(self.path + '/plot.eps', bbox_inches='tight', format='eps')
+        plt.savefig(self.path + '/' + self.algorithm + '_{0}.eps'.format(self.levels), bbox_inches='tight', format='eps')
 
 
