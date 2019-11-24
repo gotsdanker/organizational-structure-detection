@@ -29,14 +29,8 @@ def select_nodes_based_on_utility_score(utility_score_name, utility_score, pct, 
 def message_passing(G, known_nodes, threshold, minority_labels, levels, jaccard_min):
     max_iter = 1000
 
-    # df_nodes = pd.DataFrame(G.nodes(data='utility_score'), columns=[ID, 'utility_score'])
-    # df_nodes = df_nodes.set_index(ID)
-
-    # order_desc = df_nodes.sort_values('utility_score', ascending=True).index
-
     nodes = pd.DataFrame(G.nodes(data='label'), columns=[ID, 'label'])
     nodes = nodes.set_index(ID)
-    # nodes = nodes.loc[order_desc, 'label'].to_dict()
     nodes = nodes.loc[:, 'label'].to_dict()
 
     label_counter = {node_id: NodeInfo() for node_id in nodes.keys()}
@@ -69,18 +63,14 @@ def message_passing(G, known_nodes, threshold, minority_labels, levels, jaccard_
                     size = round(size / float(threshold))
                 label_freq[l] = size
 
-            # ZAKOMENTOWAC
             same_freq = len(set(label_freq.values())) < levels
 
-            # select update strategy
-            #       same_freq - more than one label has max count
-            #       else - select label with the highest count
             if same_freq:
                 # check that there is no favorite among the nodes
                 label_counter[node].unchanged_iter += 1
 
                 # if the node has not changed the label 10 times
-                # assign a new label from the neighbor with the highest utility score
+                # assign a new label with the highest count and position
                 if label_counter[node].unchanged_iter > 10:
                     nodes[node] = max(label_freq.items(), key=operator.itemgetter(1))[0]
                     label_counter[node].unchanged_iter = 0
