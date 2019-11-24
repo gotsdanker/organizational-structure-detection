@@ -14,6 +14,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/enron/notebooks/network.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/enron/notebooks/preprocessing.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/enron/notebooks/random_classification.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/enron/notebooks/standard_classification.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/collective_classification.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/create_features.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
@@ -23,7 +68,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/data_analysis.ipynb">
+        <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/network.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="0" />
@@ -53,52 +98,7 @@
         <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/standard_classification.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/network.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enron/notebooks/preprocessing.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enron/notebooks/random_classification.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enron/notebooks/standard_classification.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/collective_classification.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
+              <selected id="5" />
             </state>
           </provider>
         </entry>
@@ -200,12 +200,12 @@
         <option value="$PROJECT_DIR$/manufacturing_company/src/visualization/plot_standard_classification.py" />
         <option value="$PROJECT_DIR$/enron/logs/collective_classification/2019-10-03_22:47:45_CollectiveClassification_3_levels/ps.txt" />
         <option value="$PROJECT_DIR$/manufacturing_company/src/classification_algorithms/collective_classification.py" />
-        <option value="$PROJECT_DIR$/enron/notebooks/preprocessing.ipynb" />
         <option value="$PROJECT_DIR$/manufacturing_company/notebooks/preprocessing.ipynb" />
         <option value="$PROJECT_DIR$/manufacturing_company/notebooks/create_features.ipynb" />
         <option value="$PROJECT_DIR$/manufacturing_company/notebooks/collective_classification_test.ipynb" />
-        <option value="$PROJECT_DIR$/enron/notebooks/collective_classification.ipynb" />
         <option value="$PROJECT_DIR$/enron/notebooks/random_classification.ipynb" />
+        <option value="$PROJECT_DIR$/enron/notebooks/collective_classification.ipynb" />
+        <option value="$PROJECT_DIR$/enron/notebooks/preprocessing.ipynb" />
         <option value="$PROJECT_DIR$/enron/notebooks/standard_classification.ipynb" />
         <option value="$PROJECT_DIR$/manufacturing_company/notebooks/collective_classification.ipynb" />
         <option value="$PROJECT_DIR$/manufacturing_company/notebooks/standard_classification.ipynb" />
@@ -647,10 +647,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/data_analysis.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/enron/notebooks/collective_classification.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="3" />
+          <selected id="2" />
         </state>
       </provider>
     </entry>
@@ -671,7 +678,7 @@
     <entry file="file://$PROJECT_DIR$/enron/notebooks/preprocessing.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="4" />
+          <selected id="3" />
         </state>
       </provider>
     </entry>
@@ -685,14 +692,14 @@
     <entry file="file://$PROJECT_DIR$/enron/notebooks/standard_classification.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="6" />
+          <selected id="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/collective_classification.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="0" />
+          <selected id="2" />
         </state>
       </provider>
     </entry>
@@ -700,13 +707,6 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/data_analysis.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
         </state>
       </provider>
     </entry>
@@ -734,7 +734,7 @@
     <entry file="file://$PROJECT_DIR$/manufacturing_company/notebooks/standard_classification.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="9" />
+          <selected id="5" />
         </state>
       </provider>
     </entry>
